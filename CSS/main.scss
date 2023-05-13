@@ -1,0 +1,796 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Montserrat', Arial , sans-serif;
+    font-size: 24px;
+    // font-family: 'Questrial';
+    // font-size: 17px;
+    line-height: 26.4px;
+    font-weight: 500;
+    color: black;
+}
+h2{
+    font-weight: 400;
+    font-family: 'Questrial';
+    font-size: 28px;
+    line-height: 44px;
+}
+p{
+    font-family: 'Questrial';
+    font-size: 17px;
+    line-height: 30.6px;
+    color: rgb(133,128,127);
+}
+u{
+    text-decoration-color: gray;
+}
+.SearchRow{
+    height: auto;
+    background-image: linear-gradient(to right,rgb(142,179,116),rgb(85,132,115),rgb(5,67,114) );
+    // border-bottom: 0.1px solid gray;
+    .SearchCol1{
+      h1{
+        font-size: 14px;
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+      }
+    }
+    .SearchCol{       
+        // border: 0.1px solid gray;
+        display: flex;
+        justify-content:flex-start;
+        .InnerDiv{
+            height: inherit;
+            // width: 770px;
+            // border: 0.1px solid rgb(249, 237, 237);
+            display: flex;
+            justify-content:flex-end;
+            .LearCodeDiv{
+                height: inherit;
+                // width:143px;
+                // border: 0.1px solid rgba(0, 0, 0, 0.502);
+                font-size: 12px;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .AboutusDiv{
+                height: inherit;
+                // width:90px;
+                // border: 0.1px solid rgba(0, 0, 0, 0.502);
+                font-size: 12px;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .PrivacyDiv{
+                height: inherit;
+                // width:120px;
+                // border: 0.1px solid rgba(0, 0, 0, 0.502);
+                font-size: 12px;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .DisclaimerDiv{
+                height: inherit;
+                // width:120px;
+                // border: 0.1px solid rgba(0, 0, 0, 0.502);
+                font-size: 12px;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .ContactUsDiv{
+                height: inherit;
+                
+                // width:110px;
+                // border: 0.1px solid rgba(0, 0, 0, 0.502);
+                font-size: 12px;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+            .WhiteSearchBox{
+                height: 100%;
+                margin-right: 5%;
+                width: auto;
+               display: flex;
+               justify-content:flex-end;
+               transition:1s;
+               input{
+                width: 0.1px;
+                transition: 1s;
+                background-color: rgb(12,73,114);
+                border: none;
+               }
+                .BlackSearchDiv{
+                    height: inherit;
+                    width: 40px;
+                    border: none;
+                    // border: 0.1px solid rgb(11, 10, 10);
+                    background-color: black;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    i{
+                        // background-color: white;
+                        color: white;
+                    }
+                }  
+            }
+            .BlackSearchDiv:hover {
+                background-color: rgb(253,87,34);
+            }
+            .WhiteSearchBox:hover {
+                input{
+                    width: 160px;
+                    background-color: white;
+                    border: none;
+                }
+            }
+        }
+    }
+}
+.navrow{
+    background-image: linear-gradient(to right, rgb(158,198,129),rgb(78,133,128), rgb(5,74,127));
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+         height: 50px;
+         width: 205px;
+        }
+    }
+    .navcol{
+        margin-bottom: 2%;
+        margin-top: 2%;
+       .navbar{
+        background-image: linear-gradient(to right,rgb(109,158,129), rgb(8,77,127));
+        .collapse{
+            ul{
+                li{
+                    a{
+                        color: white;
+                        .fa-solid {
+                            color: white;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                        &:hover{
+                            color: black;
+
+                        }
+                    }
+                    &:hover{
+                        .dropdown-menu{
+                            display: block;
+                        }
+                    }
+                }
+                .dropdown-menu{
+                    background-image: linear-gradient(to right,rgb(163,203,130), rgb(1,64,114));
+                    li{
+                        a{
+                            color: white;
+                            &:hover{
+                                background-color: black;
+                               }
+                        }
+                    }
+                }
+            }
+        }
+        
+       }
+    }
+}
+
+.ThirdRow{
+ .BigPic{
+    img{
+        width: 100%;
+    }
+ }
+}
+.OverlapRow{
+  .OverlapCol{
+    margin-top: -5%;
+    // border: 0.2px solid gray;
+    background-color: white;
+    .OverlapRow1{
+       box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.418);
+       .write{
+        //  text-align: justify;
+         font-size: 36px;
+       }
+       .SmallPic{
+        justify-content: center;
+        img{
+         height: 190px;
+         width: 208px;
+         // width: 100%;
+          // height: 100%;
+        }
+       }
+    }
+  }
+}
+.TechForestDeliversRow{   
+    // border: 0.2px solid gray;
+    .TechForestDeliversCol{
+        // border: 0.2px solid gray;
+        height: auto;
+        // h1{
+        //     font-family: 'Questrial';
+        //     font-size: 17px;
+        // }
+        p{
+            a{
+                color: rgb(0,179,110);
+            }
+        }
+    }
+}
+.AdvantagesRow{
+    .AdvantagesCol{
+        height: auto;
+        h1{
+            text-align: center;
+           
+        }
+        li{
+          font-family: 'Questrial';
+          font-size: 17px;
+          line-height: 35px;
+          color: rgb(133,128,127);
+         }
+    } 
+}
+.StudentReviewHeadingRow{
+    // border: 0.2px solid gray;
+   .StudentReviewHeadingCol{
+    height: auto;
+    text-align: center;
+   }
+}
+.StudentReviewParaRow{
+    // border: 0.2px solid gray;
+    text-align: center;
+    .StudentReviewParaCol{
+        height: auto;
+    }
+} 
+.FourDivRow{
+    // border: 0.2px solid gray;
+    .FourDivCol{
+        // border: 0.2px solid gray;
+        height: 320px;
+            iframe{
+             height: 100%;
+             width: 100%;
+            }
+    }
+    .FourDivCol2{
+        // border: 0.2px solid gray;
+        height:auto;
+        .main{
+            height: 100%;
+            box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.32);
+            .Pic{ 
+                display: flex;
+                width: 100%;
+                // background-color: aquamarine;
+            }
+            .para{
+                text-align: justify;
+            }
+        }       
+    }
+ }
+.ssixdivsRow{
+    // border: 0.2px solid gray;
+    .SixCol{
+      height: auto;
+      border-radius: 10px;
+    //   border: 0.2px solid gray;
+      border-top: 3px solid rgb(116,133,150);
+      box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.32);
+      p{
+        a{
+            color: rgb(0,179,110);
+        }
+      }
+    }
+}
+.BestDigitalMarketing{
+    height: auto;
+    // border: 0.2px solid gray;
+    justify-content: center;
+    .written{
+        height: auto;
+        // border: 0.2px solid gray;
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+    }
+  .GreenpicRow{
+       .GreenPicCol{
+         // border: 0.2px solid gray;
+          img{
+             width: 100%;
+              height: 100%;
+              border: 0.2px solid rgba(128, 128, 128, 0.265);
+              box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.32);
+            }
+        }
+    }    
+}
+.WhyDigitalMarketingRow{
+    // height: 100px;
+    // border: 0.2px solid gray;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    .WhyDigitalMarketingCol{
+        // border: 0.2px solid gray;
+        h1{
+            text-align: center;
+        }
+    }   
+}
+.FourGreenRow{
+    // border: 0.2px solid gray;
+    text-align: center;
+    .box{        
+        background-color: rgb(5,90,67);
+        height: 46px;
+        border-left: 4px solid rgb(248,194,49);
+        color: white;
+        text-align: center;
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.32);
+    }
+}
+.FourlogoRow{
+    // border: 0.2px solid gray;
+    margin-top: 10px;
+    .FourlogoCol{
+       height: auto;
+        .FourlogoRow2{
+            box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.32);
+            .box{
+                height: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: none;
+                border-left: 0.2px solid rgba(128, 128, 128, 0.185);
+                img{
+                   height: 150px;
+                   width: 200px;
+                }
+            }
+        }
+    }   
+}
+.ColorfulBoxRow1{
+    border-bottom: 0.1px solid gray;
+    .ColorfulBoxCol1{
+        height: auto;
+        background-image: linear-gradient(to right, rgb(145, 180, 117), rgb(112, 154, 116), rgb(72, 121, 115), rgb(49, 103, 115), rgb(22, 82, 114));
+        border-bottom: 0.1px solid gray;
+        h1{
+            text-align: center;
+            color: white;
+        }
+        p{
+            text-align: center;
+            color: white;
+            text-align: justify;
+        }
+    }   
+}
+.colorfulBox2{
+    background-image: linear-gradient(to right, rgb(145, 180, 117), rgb(112, 154, 116), rgb(72, 121, 115), rgb(49, 103, 115), rgb(22, 82, 114));
+    border-bottom: 0.2px solid gray;
+    border-left: 0.2px solid gray;
+    border-right: 0.2px solid gray;
+    .bigpic{
+        height: inherit;
+        // border-right:0.1px solid gray;
+        display: flex;
+        .insideDivb{
+            height: 96%;
+            width: 100%;
+            border: 0.2px solid white;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .smallpic{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .insideDivs{
+            height: 80%;
+            width: 70%;
+            border: 0.2px solid gray;
+            img{
+                width: 100%;
+                height: 100%;
+                box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.612);
+            }
+        }
+      }
+}
+.WhatOurStudents{
+    // border: 0.2px solid gray;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.32);
+    .heading{
+        // border: 0.2px solid gray;
+        h1{
+            text-align: center;
+        }
+           }
+   .para{ 
+    // border: 0.2px solid gray;
+    p{
+        text-align: justify;
+      }
+    }
+    .video{
+        height: 350px;
+        // border: 0.2px solid gray;
+        iframe{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+.FeaturedCoursesRow{
+    // border: 0.2px solid gray;
+    .FeaturedCoursesCol{
+        border-top: 3px solid rgb(0,153,136);
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.32);
+        h1{
+            text-align: center;
+        }
+        p{
+           text-align: justify;
+          .FeaturedCoursesRow1{
+            border: 0.2px solid gray;
+             .FeaturedCoursesCol1{               
+                  border: 0.2px solid gray;
+                }
+            }
+        }
+      .FeaturedCoursesRow2{
+          // border: 0.2px solid gray;
+         .FeaturedCoursesCol2{
+              //  border: 0.2px solid gray;
+              border: 0.2px solid rgba(128, 128, 128, 0.137);
+              box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.221);
+               .MainDiv{
+                 width: 100%;
+                   //  height: 372px;
+                 height: auto;
+                 //   border: 0.2px solid rgb(185, 31, 31);
+                
+                 .RoundDiv{
+                     width: 100%;
+                     height:40%;
+                      //   border: 0.2px solid gray;
+                      display: flex;
+                      justify-content: center;
+                    }
+                 p{
+                      // border: 0.2px solid gray; 
+                      width: 100%;
+                     height: auto;
+                      a{
+                        color: rgb(1,54,106);
+                      }
+                    }
+                 button{
+                     height: 40px;
+                     width: 125px;
+                      margin-left: 30%;
+                      color: white;
+                      border-left: 0.1px soloid rgb(0,70,127);
+                      border-right: 1px solid rgb(164,203,129);
+                      border-top: none;
+                      border-bottom: none;
+                      background-image: linear-gradient(to right, rgb(145, 180, 117), rgb(112, 154, 116), rgb(72, 121, 115), rgb(49, 103, 115), rgb(22, 82, 114));
+                    }
+                }
+            }
+        }
+    }
+}
+.FeaturedCoursesRow3{
+//    border: 0.2px solid gray;
+    .FeaturedCoursesCol3{
+        
+    //    border: 0.2px solid gray;
+    border: 0.2px solid rgba(128, 128, 128, 0.116);
+    box-shadow: 5px 5px 5px 5px  rgba(0, 0, 0, 0.221);
+        .MainDiv{
+            width: 100%;
+            //   height: 372px;  
+            height: auto;
+            .RoundDiv{
+                width: 100%;
+                height:40%;
+                display: flex;
+                justify-content: center;
+                // border: 0.2px solid gray;
+            }
+        }
+        p{
+            // border: 0.2px solid gray; 
+            // width: 100%;
+            height: auto;
+            a{
+                color: rgb(1,54,106);
+            }
+        }
+        button{
+            height: 40px;
+            width: 125px;
+            margin-top: 0px;
+            margin-left: 30%;
+            color: white;
+            border-left: 0.1px soloid rgb(0,70,127);
+            border-right: 1px solid rgb(164,203,129);
+            border-top: none;
+            border-bottom: none;
+            background-image: linear-gradient(to right, rgb(145, 180, 117), rgb(112, 154, 116), rgb(72, 121, 115), rgb(49, 103, 115), rgb(22, 82, 114));
+        }
+    }
+}
+.LearnCodeRow{
+    // border: 0.2px solid gray;
+    .LearnCodeCol{
+    //    justify-content: center;
+    text-align: center;
+       background-color: blue($color: #4a38cc);
+       .h1{
+           text-align: center;
+       }
+      p{
+         text-align: center;
+         text-align: justify;
+       }  
+    }
+} 
+.OnlineLearningRow{
+    // border: 0.2px solid gray;
+    .OnlineLearningCol{
+        // border: 0.1px solid black;
+        height: 400px;
+        img{
+          width: 100%;
+          height: 100%;
+          border: 0.2px solid rgba(128, 128, 128, 0.265);
+          box-shadow: 5px 5px 5px 5px  rgba(128, 128, 128, 0.416);
+        }
+    }    
+}
+.TwentyDivsRow{
+    // border: 0.2px solid gray;
+    .TwentyDivsCol{
+        border: 0.2px solid rgba(128, 128, 128, 0.265);
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.32);
+        .TwentyDivsRow1{
+            // border: 0.2px solid gray;
+            .TwentyDivsCol1{
+                // border: 0.2px solid gray;
+                .TwentyDivsRow2{
+                    // border: 0.2px solid gray;
+                    .box{
+                        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.32);
+                        width: 186px;
+                        height: 170px;
+                        border-top: 2px solid rgb(95,79,127);
+                        border-bottom: 2px solid rgb(0,128,0);
+                        border-left: 0.1px solid gray;
+                        border-right: 0.1px solid gray;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.DevelopmentCoursesRow{
+//    border: 0.2px solid gray;
+   .DevelopmentCoursesCol{
+      margin-top: 50px;
+      height: auto;
+     //   border: 0.2px solid gray;
+        h1{
+            text-align: center;
+        }
+        p{
+            a{
+                color: rgb(0,179,110);
+            }
+        }
+    }
+}
+.SearchbarRow{
+    // height: 100px;
+    height: auto;
+    background-color: rgba(212, 209, 209, 0.959);
+    // justify-content: center;
+    .SearchbarCol{
+        align-items: center;
+        // border: 0.2px solid gray;
+        background-color: rgb(245,245,245);
+       .MainDiv{
+            // border: 0.1px solid gray;
+            height: auto;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           i{
+             // background-color: white;
+             color: gray;
+             margin-left: 4%;
+              &:hover {
+               color: black;
+              }
+            }            
+        }
+        .mainDiv{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            // border: 0.1px solid gray;
+            align-items: center;
+            // justify-content: space-around;
+            input{
+                width: 300px;
+                height: 40px;
+                border: 1px solid gray;
+                padding-left: 3%;
+            }
+            .SearchDiv{
+                margin-left: 10px;
+                // border: 0.1px solid rgba(128, 128, 128, 0.881);
+                width: 50px;
+                height: 40px;
+                background-color: black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &:hover {
+                    background-color: orangered;
+                }
+                i{
+                    // background-color: white;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+.SecondLastDivRow{
+    background-image: linear-gradient(to right, rgb(145, 180, 117), rgb(112, 154, 116), rgb(72, 121, 115), rgb(49, 103, 115), rgb(22, 82, 114));
+   border-bottom: 0.5px solid white;
+  .SecondLastDivCol{
+      height: auto;
+     display: flex;
+      .MainLogoDiv{
+         height: auto;
+         display: flex;
+        }
+      .MainDiv{
+         height: auto;
+         display: block;
+         list-style-type: none;
+         color: white;
+          h2{
+            font-size: 28px;
+           }
+           p{          
+              ul{
+                 li{
+                  font-size: 12px;
+                   line-height: 20px;
+                  }
+                }
+            }
+        }
+    }
+}
+.LastDivRow{
+    height: auto;
+    background-image: linear-gradient(to right, rgb(145, 180, 117), rgb(112, 154, 116), rgb(72, 121, 115), rgb(49, 103, 115), rgb(22, 82, 114));
+    // border: 0.2px solid gray;
+    .LastDivCol{
+        // border: 0.2px solid gray;
+        .MainDiv{
+            // border: 0.2px solid rgb(28, 26, 26);
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            color: white;
+            font-size: 17px;
+            h2{
+                color: white;
+            }
+        }
+        .mainDiv{
+            // border: 0.2px solid rgb(28, 26, 26);
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;            
+            h1{
+             color: white;
+             font-size: 17px;
+             &:hover {
+                color: black;
+                }
+            }
+        }
+    }
+}
+//     @media screen and (max-width:576px) {
+// .WhiteSearchBox{
+//     height: 100%;
+//     margin-right: 5%;
+//     width: auto;
+//     display: flex;
+//    justify-content:center;
+//    transition:1s;
+//    input{
+//     width: 0.1px;
+//     transition: 1s;
+//     background-color: rgb(12,73,114);
+//     border: none;
+//    }
+//    .BlackSearchDiv{
+//     height: inherit;
+//     width: 40px;
+//     border: none;
+//     // border: 0.1px solid rgb(11, 10, 10);
+//     background-color: black;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     i{
+//         // background-color: white;
+//         color: white;
+//     }
+//    }
+// }
+
+//     }
+   
+        
